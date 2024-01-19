@@ -134,7 +134,7 @@ ul.main-menu li a.active {
   display:none;
 }
 .show {
-  display:block;
+  display:flex;
 }
 
 
