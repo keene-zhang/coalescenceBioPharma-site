@@ -1,91 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <!-- Page setup -->
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Coalescence BioPharma</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
+    <meta
+      name="description"
+      content="A brief description of your site for search engines"
+    />
+    <meta name="author" content="Information about the author here" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
     <!-- Stylesheets -->
     <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+
     <!-- Custom styles -->
     <link href="style.css" rel="stylesheet" type="text/css" />
 
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Want to add Bootstrap? -->
     <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
   </head>
-  
-  <body>
 
+  <body>
     <header id="header">
       <!-- <img src="logo.png"> -->
       <h1>Coalescence BioPharma</h1>
-      
+
       <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
       <ul class="main-menu">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
-      </ul>                 
+      </ul>
     </header>
-   
+
     <div id="container">
       <div class="inner">
-        <div id="content"> 
-          
+        <div id="content">
           <div id="home" class="content-region hide">
             <h2>Home</h2>
             <p>
-              Founded in June 2022, Coalescence BioPharma, LLC is a private biotech consulting company located in the City of Vestavia Hills, Alabama, USA. The company provides consulting services for Biotech/Pharmaceutical companies to reach their clinical operations and business development aims.
+              Founded in June 2022, Coalescence BioPharma, LLC is a private
+              biotech consulting company located in the City of Vestavia Hills,
+              Alabama, USA. The company provides consulting services for
+              Biotech/Pharmaceutical companies to reach their clinical
+              operations and business development aims.
             </p>
           </div>
-          
+
           <div id="about" class="content-region hide">
             <h2>Business Scopes</h2>
-			<ul>
-			  <li>Design, implementation, and execution of project plan based on client goals, analysis and interpretation of project data, and recommendation for future progression</li>
-			  <li>Assistance on shaping overall team and driving efforts for multiple programs in a highly efficient, fast-paced environment</li>
-			  <li>Providing essential business development support to pharmaceutical industrials for partnership and specific platform acquisition or license in/out in multi-national environments</li>
-			  <li>Providing essential support for clinical trials in USA including IND application, clinic study design, and clinic trial site selection and coordination</li>
-			</ul>
-			
-			<h2>Partner</h2>
-			<ul>
-				<li>Angine Biotech Co., Ltd, Hangzhou, China</li>
-				<li>Accendatech USA Inc., 21 Strathmore Road, Natick, MA 01760 USA</li>
-			</ul>
+            <ul>
+              <li>
+                Design, implementation, and execution of project plan based on
+                client goals, analysis and interpretation of project data, and
+                recommendation for future progression
+              </li>
+              <li>
+                Assistance on shaping overall team and driving efforts for
+                multiple programs in a highly efficient, fast-paced environment
+              </li>
+              <li>
+                Providing essential business development support to
+                pharmaceutical industrials for partnership and specific platform
+                acquisition or license in/out in multi-national environments
+              </li>
+              <li>
+                Providing essential support for clinical trials in USA including
+                IND application, clinic study design, and clinic trial site
+                selection and coordination
+              </li>
+            </ul>
+
+            <h2>Previous Partners</h2>
+            <div class="partnersList">
+              <!-- <li>Angine Biotech Co., Ltd, Hangzhou, China</li>
+              <li>
+                Accendatech USA Inc., 21 Strathmore Road, Natick, MA 01760 USA
+              </li> -->
+              <div class="imgholder">
+                <img src="/assets/accenda_logo.jpg" />
+              </div>
+              <div class="imgholder">
+                <img src="/assets/angine_logo.png" />
+              </div>
+              <div class="imgholder">
+                <img src="/assets/tasly_logo.png" />
+              </div>
+              <div class="imgholder">
+                <img src="/assets/theramex_logo.png" />
+              </div>
+            </div>
           </div>
-          
+
           <div id="contact" class="content-region hide">
             <h2>Contact</h2>
             <p>
-              Email: <a href="mailto:zhang@coalescencebiopharma.com">zhang@coalescencebiopharma.com</a>
-			</p>
-			<p>
-			  Phone: 205-901-9281
+              Email:
+              <a href="mailto:zhang@coalescencebiopharma.com"
+                >zhang@coalescencebiopharma.com</a
+              >
             </p>
+            <p>Phone: 205-901-9281</p>
           </div>
-          
         </div>
       </div>
     </div>
 
-    <footer>  
+    <footer></footer>
 
-    </footer>
-    
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
-    
   </body>
 </html>

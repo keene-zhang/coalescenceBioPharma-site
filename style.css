@@ -138,4 +138,19 @@ ul.main-menu li a.active {
 }
 
 
+.partnersList{
+  display: flex;
 
+}
+
+.partnersList img{
+  object-fit: cover;
+}
+
+#content {
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
