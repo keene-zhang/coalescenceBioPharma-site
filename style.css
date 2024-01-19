@@ -140,11 +140,23 @@ ul.main-menu li a.active {
 
 .partnersList{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: white;
+}
 
+.imgholder{
+  flex:1 0 7.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .partnersList img{
-  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 #content {
